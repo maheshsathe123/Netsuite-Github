@@ -42,7 +42,7 @@ define(["N/currentRecord"], function (currentRecord) {
         "width=600,height=400,resizable=yes,scrollbars=yes"
       );
     }
-    // Return the functions to be exposed to the Client Script
+    // Return the functions to be exposed to the Client Script.
    
     return {
       pageInit: pageInit, // Adding pageInit as an entry point for the Client Script
